@@ -1,0 +1,14 @@
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\bin\Debug\net10.0\Students.exe
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\bin\Debug\net10.0\Students.deps.json
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\bin\Debug\net10.0\Students.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\bin\Debug\net10.0\Students.dll
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\bin\Debug\net10.0\Students.pdb
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.dll
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\refint\Students.dll
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.pdb
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\ref\Students.dll
