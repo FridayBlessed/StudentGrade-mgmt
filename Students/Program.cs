@@ -8,6 +8,7 @@ namespace StudentGradeManagement
     class Student
     {
         public string Name { get; set; }
+        pub
         public string StudentID { get; set; }
         public Dictionary<string, double> Grades { get; set; }
 
