@@ -93,20 +93,20 @@ namespace StudentGradeManagement
             // If-else statement to validate student ID - REQUIRED CONTROL STRUCTURE
             if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(studentID))
             {
-                Console.WriteLine("❌ Error: Name and ID cannot be empty.\n");
+                Console.WriteLine(" Error: Name and ID cannot be empty.\n");
                 return;
             }
 
             // Check if student ID already exists
             if (FindStudent(studentID) != null)
             {
-                Console.WriteLine("❌ Error: A student with this ID already exists.\n");
+                Console.WriteLine(" Error: A student with this ID already exists.\n");
                 return;
             }
 
             Student newStudent = new Student(name, studentID);
             students.Add(newStudent);
-            Console.WriteLine($"✅ Student '{name}' with ID '{studentID}' added successfully!\n");
+            Console.WriteLine($" Student '{name}' with ID '{studentID}' added successfully!\n");
         }
 
         // Method to add a grade to a student
@@ -117,7 +117,7 @@ namespace StudentGradeManagement
             // If-else to check if students exist
             if (students.Count == 0)
             {
-                Console.WriteLine("❌ No students in the system. Please add a student first.\n");
+                Console.WriteLine(" No students in the system. Please add a student first.\n");
                 return;
             }
 
@@ -129,7 +129,7 @@ namespace StudentGradeManagement
             // If-else statement for validation
             if (student == null)
             {
-                Console.WriteLine("❌ Error: Student not found.\n");
+                Console.WriteLine(" Error: Student not found.\n");
                 return;
             }
 
@@ -146,16 +146,16 @@ namespace StudentGradeManagement
                 if (grade >= 0 && grade <= 100)
                 {
                     student.Grades[subject] = grade;
-                    Console.WriteLine($"✅ Grade {grade} added for {subject} to student {student.Name}!\n");
+                    Console.WriteLine($" Grade {grade} added for {subject} to student {student.Name}!\n");
                 }
                 else
                 {
-                    Console.WriteLine("❌ Error: Grade must be between 0 and 100.\n");
+                    Console.WriteLine(" Error: Grade must be between 0 and 100.\n");
                 }
             }
             else
             {
-                Console.WriteLine("❌ Error: Invalid grade format.\n");
+                Console.WriteLine(" Error: Invalid grade format.\n");
             }
         }
 
@@ -186,7 +186,7 @@ namespace StudentGradeManagement
             
             if (students.Count == 0)
             {
-                Console.WriteLine("❌ No students in the system.\n");
+                Console.WriteLine(" No students in the system.\n");
                 return;
             }
 
@@ -197,20 +197,20 @@ namespace StudentGradeManagement
 
             if (student == null)
             {
-                Console.WriteLine("❌ Error: Student not found.\n");
+                Console.WriteLine(" Error: Student not found.\n");
                 return;
             }
 
             if (student.Grades.Count == 0)
             {
-                Console.WriteLine($"⚠️ Student {student.Name} has no grades yet.\n");
+                Console.WriteLine($" Student {student.Name} has no grades yet.\n");
                 return;
             }
 
             // Call the CalculateAverage method
             double average = CalculateAverage(student);
             
-            Console.WriteLine($"\n📊 Student: {student.Name} (ID: {student.StudentID})");
+            Console.WriteLine($"\n Student: {student.Name} (ID: {student.StudentID})");
             Console.WriteLine($"Average Grade: {average:F2}");
             Console.WriteLine();
         }
@@ -223,7 +223,7 @@ namespace StudentGradeManagement
             // If-else to check if there are students
             if (students.Count == 0)
             {
-                Console.WriteLine("❌ No students in the system.\n");
+                Console.WriteLine(" No students in the system.\n");
                 return;
             }
 
@@ -231,7 +231,7 @@ namespace StudentGradeManagement
             for (int i = 0; i < students.Count; i++)
             {
                 Student student = students[i];
-                Console.WriteLine($"\n📚 Student #{i + 1}");
+                Console.WriteLine($"\n Student #{i + 1}");
                 Console.WriteLine($"Name: {student.Name}");
                 Console.WriteLine($"ID: {student.StudentID}");
                 
