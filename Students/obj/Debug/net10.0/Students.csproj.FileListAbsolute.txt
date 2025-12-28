@@ -15,3 +15,4 @@ C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\ref\Students.dll
 c:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.csproj.AssemblyReference.cache
 c:\Users\HP\OneDrive\Desktop\STGRD\Students\bin\Debug\net10.0\Pastel.dll
 c:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.csproj.Up2Date
+C:\Users\HP\OneDrive\Desktop\STGRD\Students\obj\Debug\net10.0\Students.sourcelink.json
