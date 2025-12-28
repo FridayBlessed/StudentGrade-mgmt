@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj",
         "projectName": "Students",
-        "projectPath": "c:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\Students.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\obj\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Desktop\\STGRD\\Students\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
